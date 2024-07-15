@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire</title>
+</head>
+<body>
+    <form action="" method="post">
+        <div>
+            <div>
+                <label for="firstname">First Name:</label>
+            </div>
+            <div>
+                <input type="text" name="firstname" id="firstname">
+            </div>
+        </div>
+        <div>
+            <div><label for="lastname">Last name:</label></div>
+            <div><input type="text" name="lastname" id="lastname"></div>
+        </div>
+        <div>
+            <div><label for="mail">Email:</label></div>
+            <div><input type="email" name="mail" id="mail"></div>
+        </div>
+        <div>
+            <div><label for="motdepasse">Password:</label></div>
+            <div><input type="password" name="motdepasse" id="motdepasse"></div>
+        </div>
+        <div>
+            <p>Gender:</p>
+            <div><input type="radio" name="genre" id="male"><label for="male">Male</label></div>
+            <div><input type="radio" name="genre" id="female"><label for="female">Female</label></div>
+            <div><input type="radio" name="genre" id="other"><label for="other">Other</label></div>
+        </div>
+        <div>
+            <div><label for="date">Date of Birth:</label></div>
+            <div><input type="date" name="date" id="date"></div>
+        </div>
+        <div>
+            <div><label for="site">Website:</label></div>
+            <div><input type="text" name="site" id="site"></div>
+        </div>
+        <div>
+            <div><label for="pays">Country</label></div>
+            <div>
+                <select name="pays" id="pays">
+                    <option value="usa">USA</option>
+                    <option value="uk">UK</option>
+                    <option value="canada">Canada</option>
+                </select>
+            </div>
+        </div>
+        <div>
+            <div><label for="message">Message:</label></div>
+            <div><textarea name="message" id="message"></textarea></div>
+        </div>
+        <div>
+            <input type="submit" value="Submit">
+        </div>
+    </form>
+</body>
+</html>
